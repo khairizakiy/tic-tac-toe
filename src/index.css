@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  width: 55px;
+  height: 55px;
+  border: 1px solid grey;
+  background-color: gainsboro;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 205px;
+  height: 150px;
+}
+
+.status{
+  margin-bottom: 10px;
+  font-size: 5rem;
+}
+
+.game{
+  margin: 10px;
+  padding: 0;
+}
