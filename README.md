@@ -1,12 +1,82 @@
-# React + Vite
+<div align="center">
+  <h1>🎮<br>Tic Tac Toe - Offline 2 Player Game</h1>
+  <p><i>A simple offline <b>Tic Tac Toe</b> (a.k.a. XOX) web game built with **React** for two players 
+playing on the same device. Great for learning basic React concepts like component composition, 
+state management (`useState`), conditional rendering, and game logic.
+</p>
+  <img src="https://img.shields.io/badge/React-%5E18.2.0-blue" alt="React badge" />
+  <img src="https://img.shields.io/badge/Vite-%5E4.0-purple" alt="Vite badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License badge" />
+</div>
+  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 👫 **2-player offline** gameplay on one screen  
+- 🎯 Win detection logic (rows, columns, diagonals)  
+- 🔁 Turn-based switching (`X` and `O`)  
+- 🧩 Simple and clean component-based architecture  
+- 💡 Written using functional components and React Hooks (`useState`)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Tech Stack
+
+| Layer        | Technology     |
+|--------------|----------------|
+| Frontend     | React + Vite   |
+| Styling      | CSS (vanilla)  |
+| State Logic  | React Hooks    |
+
+---
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/tic-tac-toe-offline.git
+cd tic-tac-toe-offline
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
+
+Then visit: `http://localhost:5173`
+
+---
+
+## 🧱 Project Structure
+
+```
+src/
+├── App.jsx          # Main container component
+├── Board.jsx        # Logic and layout for the board
+├── Square.jsx       # Reusable square (cell) component
+├── index.css        # Basic styling
+└── main.jsx         # React root entry point
+```
+
+---
+
+
+## 🤝 Contributing
+
+Contributions, suggestions, and pull requests are welcome!
+
+---
+
+## 📄 License
+
+This project is open-source
